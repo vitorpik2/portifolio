@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 20px;
+    min-height: 80px;
+}
+
+#home {
+    background-color: #f4f4f4;
+}
+
+#sobre {
+    background-color: #e2e2e2;
+}
+
+#contato {
+    background-color: #d0d0d0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.icones-contato {
+    margin-top: 20px;
+}
+
+.icones-contato a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.icones-contato img {
+    width: 48px;
+    height: 48px;
+}
+
+.icones-contato a:hover {
+    transform: scale(1.1);
+}
+
+.foto-perfil {
+    flex: 1;
+    text-align: left;
+    min-width: 200px;
+}
+
+.foto-perfil img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
