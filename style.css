@@ -1,9 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Cascadia Mono';
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
+
+
 
 header {
     background-color: #333;
