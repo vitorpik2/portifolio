@@ -81,12 +81,12 @@ footer {
 
 @media (max-width: 600px) {
     body {
-      text-align: center;
-      
-    }
-
-    .foto-perfil{
-text-align: center;
+        text-align: center;
 
     }
-  }
+
+    .foto-perfil {
+        text-align: center;
+
+    }
+}
